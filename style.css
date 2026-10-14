@@ -1,0 +1,92 @@
+body {
+    font-family: "Gill Sans Extrabold", sans-serif;; 
+    padding: 40px;
+    background-color: #ffc918;
+    color: #000141;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input-container {
+    /* display: inline flow-root */
+    /* background-color: #99d1d1; */
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+
+input {
+    padding: 18px;
+    font-size: 17px;
+    border: 1px solid #ffd59f;
+    border-radius: 7px;
+    width: 180px;
+}
+
+.submit-btn {
+    background-color: #9b1e1e;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item-list {
+    list-style: none;
+    background-color: #b6b8a1;
+    list-style-type: space-counter;
+    padding: 0;
+    border: 1px solid #948d8d;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+
+li.purchased {
+    text-decoration: line-through;
+    color: #888888;
+    background-color: #f9f9f9;
+}
+
+.item-buttons button {
+    padding: 4px 10px;
+    margin-left: 5px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 30px;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: italic-bold;
+}
+
+#clear-button {
+    background-color: bright-red;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
