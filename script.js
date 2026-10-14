@@ -66,7 +66,7 @@ function renderList() {
 
     for (var i = 0; i < itemNames.length; i++) {
         var li = document.createElement("li");
-        li.textContent = itemNames[i] + " - $" + itemCosts[i].toFixed(2);
+        li.textContent = itemNames[i] + " - ksh" + itemCosts[i].toFixed(2);
 
     
         if (itemPurchasedStates[i] === true) {
